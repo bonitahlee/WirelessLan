@@ -1,0 +1,67 @@
+﻿<resources>
+  <string name="app_name">인터넷 설정</string>
+  <string name="wlan_msg_connect">연결하기</string>
+  <string name="wlan_msg_connected">연결됨</string>
+  <string name="wlan_msg_connecting" formatted="false">%s로 연결 시도 중</string>
+  <string name="wlan_msg_connect_success" formatted="false">%s로 연결됨</string>
+  <string name="wlan_msg_disconnect">연결 해제</string>
+  <string name="wlan_msg_disconnect_success">연결 해제됨</string>
+  <string name="wlan_msg_disconnect_fail">연결 해제할 수 없음</string>
+  <string name="wlan_msg_connect_fail" formatted="false">%s와 연결 실패</string>
+  <string name="wlan_err_already_connected">이미 연결된 프로파일임</string>
+  <string name="wlan_msg_encryption">부호화</string>
+  <string name="wlan_item_security_none">설정 안 함</string>
+  <string name="wlan_msg_signal">감도</string>
+  <string name="wlan_menu_add">네트워크 추가</string>
+  <string name="wlan_menu_properties">속성</string>
+  <string name="wlan_menu_saved_networks">저장된 네트워크</string>
+  <string name="wlan_menu_option">옵션</string>
+  <string name="wlan_option_auto_on">자동으로 Wi‑Fi 사용 설정</string>
+  <string name="wlan_option_notify">개방형 네트워크 알림</string>
+  <string name="wlan_msg_save_complete">저장 완료</string>
+  <string name="wlan_err_location_off">위치 정보가 사용 중지되어 있으므로 사용할 수 없습니다. 위치 정보를 사용 설정해 주세요.</string>
+  <string name="wlan_msg_remove_success">제거 완료</string>
+  <string name="wlan_msg_remove_fail">프로파일 삭제 실패</string>
+  <string name="wlan_msg_remove">프로파일 삭제</string>
+  <string name="wlan_msg_profile_info">프로파일 정보</string>
+  <string name="wlan_label_network_name">네트워크 이름 (SSID):</string>
+  <string name="wlan_label_network_key">네트워크 키:</string>
+  <string name="wlan_label_domain">도메인:</string>
+  <string name="wlan_label_eap">EAP 방식:</string>
+  <string name="wlan_label_phase2_auth">단계 2 인증:</string>
+  <string name="wlan_label_ca_cert">CA 인증서</string>
+  <string name="wlan_label_user_cert">사용자 인증서</string>
+  <string name="wlan_label_identity">ID</string>
+  <string name="wlan_label_anonymous_identity">익명 ID</string>
+  <string name="wlan_label_password">비밀번호?</string>
+  <string name="wlan_label_security">보안:</string>
+  <string name="wlan_label_frequency">주파수:</string>
+  <string name="wlan_label_mac_address">MAC 주소:</string>
+  <string name="wlan_label_ip_address">IP 주소</string>
+  <string name="wlan_label_gateway">게이트웨이:</string>
+  <string name="wlan_label_subnet_mask">서브넷 마스크:</string>
+  <string name="wlan_label_dns1">DNS1:</string>
+  <string name="wlan_label_dns2">DNS2:</string>
+  <string name="wlan_label_link_speed">링크 속도:</string>
+  <string name="wlan_label_ipv6_address">IPV6 주소:</string>
+  <string name="wlan_item_multiple_certs_added">(여러 인증서가 추가됨)</string>
+  <string name="wlan_item_not_provide">제공하지 않음</string>
+  <string name="wlan_item_not_validate">확인하지 않음</string>
+  <string name="wlan_item_please_select">선택하세요.</string>
+  <string name="wlan_item_use_system_cert">시스템 인증 사용</string>
+  <string name="wlan_msg_profile_save_success">프로파일 설정 완료</string>
+  <string name="wlan_msg_profile_save_fail">네트워크 저장 실패</string>
+  <string name="wlan_err_no_domain">도메인을 지정해야 합니다.</string>
+  <string name="wlan_err_no_network_name">SSID가 입력되지 않음</string>
+  <string name="wlan_err_network_name_length">네트워크 이름이 너무 깁니다.</string>
+  <string name="wlan_err_invalid_password">잘못된 비밀번호 입니다.</string>
+  <string name="wlan_err_no_password">비밀번호가 존재하지 않음</string>
+  <string name="wlan_band_24ghz">2.4 GHz</string>
+  <string name="wlan_band_5ghz">5 GHz</string>
+  <string name="wlan_link_speed" formatted="false">%1d Mbps</string>
+  <string name="wlan_msg_signal_excellent">최고 좋음</string>
+  <string name="wlan_msg_signal_good">좋음</string>
+  <string name="wlan_msg_signal_low">낮음</string>
+  <string name="wlan_msg_signal_very_good">매우 좋음</string>
+  <string name="wlan_msg_signal_very_low">매우 낮음</string>
+</resources>

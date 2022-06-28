@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Setup Internet</string>
+    <string name="wlan_msg_connect">Connect</string>
+    <string name="wlan_msg_connected">Connected</string>
+    <string name="wlan_msg_connecting" formatted="false">Connecting to %s...</string>
+    <string name="wlan_msg_connect_success" formatted="false">Connected to %s.</string>
+    <string name="wlan_msg_disconnect">Disconnect</string>
+    <string name="wlan_msg_disconnect_success">Disconnected</string>
+    <string name="wlan_msg_disconnect_fail">Unable to disconnect</string>
+    <string name="wlan_msg_connect_fail" formatted="false">Unable to connect to %s.</string>
+    <string name="wlan_err_already_connected">You are already connected with this access point.</string>
+    <string name="wlan_msg_encryption">Encryption</string>
+    <string name="wlan_item_security_none">None</string>
+    <string name="wlan_msg_signal">Sensitivity</string>
+    <string name="wlan_menu_add">Add Network</string>
+    <string name="wlan_menu_properties">Properties</string>
+    <string name="wlan_menu_saved_networks">Saved Networks</string>
+    <string name="wlan_menu_option">Option</string>
+    <string name="wlan_option_auto_on">Turn on Wi-Fi automatically:</string>
+    <string name="wlan_option_notify">Open network notification:</string>
+    <string name="wlan_msg_save_complete">Save complete.</string>
+    <string name="wlan_err_location_off">Turn on Wi-Fi location</string>
+    <string name="wlan_msg_remove_success">Successfully removed profile.</string>
+    <string name="wlan_msg_remove_fail">Remove profile error</string>
+    <string name="wlan_msg_remove">Remove Profile</string>
+    <string name="wlan_msg_profile_info">Profile info</string>
+    <string name="wlan_label_network_name">Network name (SSID):</string>
+    <string name="wlan_label_network_key">Network key:</string>
+    <string name="wlan_label_domain">Domain:</string>
+    <string name="wlan_label_eap">EAP method:</string>
+    <string name="wlan_label_phase2_auth">Phase-2 authentication:</string>
+    <string name="wlan_label_ca_cert">CA certificate</string>
+    <string name="wlan_label_user_cert">User certificate</string>
+    <string name="wlan_label_identity">Identity</string>
+    <string name="wlan_label_anonymous_identity">Anonymous identity</string>
+    <string name="wlan_label_password">Password:</string>
+    <string name="wlan_label_security">Security:</string>
+    <string name="wlan_label_frequency">Frequency:</string>
+    <string name="wlan_label_mac_address">Mac Address:</string>
+    <string name="wlan_label_ip_address">IP Address:</string>
+    <string name="wlan_label_gateway">Gateway:</string>
+    <string name="wlan_label_subnet_mask">Subnet Mask:</string>
+    <string name="wlan_label_dns1">DNS1:</string>
+    <string name="wlan_label_dns2">DNS2:</string>
+    <string name="wlan_label_link_speed">Link Speed:</string>
+    <string name="wlan_label_ipv6_address">IPV6 Addresses:</string>
+    <string name="wlan_item_multiple_certs_added">(Multiple certificates added)</string>
+    <string name="wlan_item_not_provide">Do not provide</string>
+    <string name="wlan_item_not_validate">Do not validate</string>
+    <string name="wlan_item_please_select">Please Select</string>
+    <string name="wlan_item_use_system_cert">Use system certificates</string>
+    <string name="wlan_msg_profile_save_success">profile created successfully.</string>
+    <string name="wlan_msg_profile_save_fail">Failed to save network</string>
+    <string name="wlan_err_no_domain">Must specify a domain.</string>
+    <string name="wlan_err_no_network_name">A network name is required.</string>
+    <string name="wlan_err_network_name_length">Network name is too long.</string>
+    <string name="wlan_err_invalid_password">Invalid Password</string>
+    <string name="wlan_err_no_password">A password is required.</string>
+    <string name="wlan_band_24ghz">2.4 GHz</string>
+    <string name="wlan_band_5ghz">5 GHz</string>
+    <string name="wlan_link_speed" formatted="false">%1d Mbps</string>
+    <string name="wlan_msg_signal_excellent">Excellent</string>
+    <string name="wlan_msg_signal_good">Good</string>
+    <string name="wlan_msg_signal_low">Low</string>
+    <string name="wlan_msg_signal_very_good">Very good</string>
+    <string name="wlan_msg_signal_very_low">Very low</string>
+</resources>

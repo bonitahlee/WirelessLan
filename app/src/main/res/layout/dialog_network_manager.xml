@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Network name (SSID) -->
+        <LinearLayout
+            android:id="@+id/network_name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_network_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wlan_label_network_name" />
+
+            <EditText
+                android:id="@+id/et_network_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/tv_network_name" />
+        </LinearLayout>
+
+        <!-- Network Security mode -->
+        <LinearLayout
+            android:id="@+id/network_auth_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_network_security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wlan_label_security" />
+
+            <Spinner
+                android:id="@+id/sp_network_security"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/tv_network_security" />
+        </LinearLayout>
+
+        <!-- Network Security 모드 -> WPA/WPA2/WPA3-Enterprise 일 경우 visible 됨 -->
+        <LinearLayout
+            android:id="@+id/eap_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Network Security 모드 -> EAP Method -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_eap_method"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_eap" />
+
+                <Spinner
+                    android:id="@+id/sp_eap_method"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_eap_method" />
+            </LinearLayout>
+
+            <!-- Network Security 모드 -> Phase-2 auth -->
+            <LinearLayout
+                android:id="@+id/phase2_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_phase2_auth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_phase2_auth" />
+
+                <Spinner
+                    android:id="@+id/sp_phase2_auth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_phase2_auth" />
+            </LinearLayout>
+
+            <!-- Network Security 모드 -> CA certificate -->
+            <LinearLayout
+                android:id="@+id/ca_certificate_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_ca_certificate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_ca_cert" />
+
+                <Spinner
+                    android:id="@+id/sp_ca_certificate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_ca_certificate" />
+            </LinearLayout>
+
+            <!-- Network Security 모드 -> Ca Certificate manual -> Domain  -->
+            <LinearLayout
+                android:id="@+id/domain_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_domain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_domain" />
+
+                <EditText
+                    android:id="@+id/et_domain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_domain" />
+            </LinearLayout>
+
+            <!-- Network Security 모드 -> User certificate -->
+            <LinearLayout
+                android:id="@+id/user_certificate_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_user_certificate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_user_cert" />
+
+                <Spinner
+                    android:id="@+id/sp_user_certificate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_user_certificate" />
+            </LinearLayout>
+
+            <!-- Network Security 모드 -> Identity -->
+            <LinearLayout
+                android:id="@+id/identity_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_identity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_identity" />
+
+                <EditText
+                    android:id="@+id/et_identity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_identity" />
+            </LinearLayout>
+
+            <!-- Network Security 모드 -> Anonymous Identity -->
+            <LinearLayout
+                android:id="@+id/anonymous_identity_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_anonymous_identity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wlan_label_anonymous_identity" />
+
+                <EditText
+                    android:id="@+id/et_anonymous_identity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/tv_anonymous_identity" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Network Security 모드 -> Password -->
+        <LinearLayout
+            android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wlan_label_password" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/tv_password" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
